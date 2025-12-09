@@ -1,1 +1,46 @@
-test
+POST /cdm/api/ccms/payments/preformat?action=submit HTTP/2
+Host: uat2.citidirect.com
+Cookie: x-citiportal-ua-track=UTTSCMCEMFJWWPSFPGFZWJESKOIIRAFG9638676403@1
+User-Agent: CitiDirectBE/5.2.0.520352 (Android;12)
+Uid: 
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+Application_type: mobileapp
+Langid: en
+Deviceprint: c1b6658740ff36f5
+Appversion: 11.3
+Userselectedregion: GLOBAL
+X-Ibm-Client-Id: 4801c7c4-cf0b-4d67-a4f7-eafb47bd03cb
+Authorization: Bearer eyJ6aXAiOiJERUYiLCJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2R0NNIiwiY3R5IjoiSldUIiwiaXNzIjoiZXBmdHRzLWNkbW9iaWxlLWp3dCIsImtpZCI6ImVwZnR0cy1jZG1vYmlsZS1qd3QifQ.aZQIibiAFoXf-IVxVrmELAIYQM24klOJuFCY1qWdNdijF6pP-WPyOXwPotXizEi75hmHw-uTvCDCXp7-GA-mVomyw5t5wCgn5-oMandtQM4ZRFJ5c-76mxq4R92HaowNJS0VywfNhqejvVTnpv6ebBLUadVcNXb4gR7wQhD8q_uYRlWJUlROH6f5J1GXgAo9o-W-cwHqApmnDQG-vmuOt8rjqqN8wCf8wYNAOmxEi66jn9FFCVw13d5xMyowaFpgBk-7fUxwCBMkqnS06Pk9wiheYFXs4JrpM1p0S5tNU19MkzLtGBJNtJ2ibSamYZjtW-BUhB62pwUjR78VhXsc_w.35Xc59JqamOdadO3.EQTifYyNiSCVUV_oZgFC3ufnxvm1WujNyowlnqZsiQaS1Lgked1e4UHWvJbkAv043zCX3WQQYynXAFReuI11UtDEEi8qABwJcBqRORyepdOboBBOihwXC7jeWsOwMrA84rqAVD_nIvVfvdXSgXFyJKMWole0zY2HQvHIrcR3ZKJU9U9N-t7XGRBRNgrcYDOB7PXduStuci244ojLQiRZhgitPfB3_k7oQI3FdrxTtE8RBsPxG1jS6s4HQYWkrhvpMhLuXHoNcBbERnMcn_vfyuScHJuGRhnFBLnmUCoiih7O1TNllJl__Ga5zWY6-Zg28YBSJrkzl7pUTopk9rrHsmTWQ34M-s-eg8b8XK2gStL5lTdkvTEZGW-7NdCcSo1K84W-1BonhOctjHKxDTS9fvVwqDL-8VQQkECGx5r3VNhMF8mxi_he0TNGoQYPRBHxJ5vJ_stSwPCKJHFmoDVEJGKWVwJmTqaLKqjS178exWJUda1I_rMPO8Jwp1KOgbO1rc0foEUP495ejELlyVlNoXQ1HVAJrxl-jXuRhOVjcz5qt-fmTYDP9R0CHutFURqGUja9s6ZXWAwargoN_5h-g1VaETs3-wxb9Ki6dLDON_Wz2BoGpWEs8izDDLwUJyEm2_80mQ22Qe4mOhjM9xH7SvGTyMe1m0Rk3nk0FoytlRldsHSfm3d4hE8LUJaqDO8XvU5uxl70KoZXGXRUeXJHuBaAPz2ste_D._ZOBfcAnOP9KUaRxMKu_Pg
+X-Mobile-Code: c4166ed0-0a3f-4070-bbb3-a2c399a701d7
+X-Authcontext-Cache: true
+Content-Type: application/json
+Content-Length: 751
+Accept-Encoding: gzip, deflate, br
+
+{"pymtProcessingMode":"DETAIL","submitUsingPreformatData":{"accountName":"WATER AND SEWERAGE CORPORATION","accountNumber":"3004993305","acctCCyCod":"BSD","bankRoutingCode":"002","equivAmt":0,"partyAccountNumber":"12345","partyName":"KOUSALYA","paymentAmount":"10","paymentCurrency":"BSD","paymentDetails":"test ","paymentMethodCode":"DFT","paymentTypeDesc":"test ","preformatCode":"050 BS BSD DFT NEW","preformatGroupShortName":"Default","processingDate":"2025-11-25T00:00:00","processingLocation":"050","transRefNo":"728282","valueDate":"2025-11-26T00:00:00"},"csapInfo":{"tmxSessionId":"596eb741-a42b-4e6c-9332-ebaffbcbab72","tmxTicketId":"858bb99a-9dc6-4dde-ba2d-9217318b1f96","tmxAcctLogin":"vgmt0001","tmxAcctFrstNam":"VA","tmxAcctLstNam":"GMT"}}
+
+HTTP/2 200 OK
+Server: istio-envoy
+X-Citiportal-Mode: bau
+Permissions-Policy: geolocation=(self "https://uat2.citidirect.com"), microphone=()
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Citiportal-Proxynode: TTS-04
+X-Citiportal-Requestid: 1-04-TTS-EUTTSCMCEMFJWWPSFPGFZWJESKOIIRAFG9638676403@1-416511#17
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: https://uat2.citidirect.com
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+X-Envoy-Upstream-Service-Time: 388
+Content-Length: 19
+P3p: CP="ALL DSP COR CUR ADM TAI OUR IND COM NAV INT"
+X-Citiportal-Webnode: bau-sp-uat2-tts1u
+Date: Tue, 25 Nov 2025 20:14:15 GMT
+
+{"highRisk":"true"}
